@@ -42,7 +42,7 @@ A backend service for uploading, storing, parsing, and retrieving files with rea
 <p>1. Clone Repository</p>
 
 ```
-git clone https://github.com/Aditya122221
+git clone https://github.com/Ankit12211688/File-Upload-Backend
 ```
 
 <p>2. Installation</p>
