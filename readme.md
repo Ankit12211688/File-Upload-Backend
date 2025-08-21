@@ -13,7 +13,7 @@ A backend service for uploading, storing, parsing, and retrieving files with rea
 # 📂 Directory Structure
 
 file-upload-backend/
-│── index.js
+│── index.jf
 │── config/
 │    └── db.js
 │── models/
