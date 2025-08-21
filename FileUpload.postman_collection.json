@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "1b54d83b-b779-4fe1-8ecd-a2b9789f4d0c",
+		"name": "FileUpload",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47760865",
+		"_collection_link": "https://ankitsinghrajput8634-2940656.postman.co/workspace/Ankit-Singh's-Workspace~9ab9ce8e-e222-4773-83cd-e285bdbf81cd/collection/47760865-1b54d83b-b779-4fe1-8ecd-a2b9789f4d0c?action=share&source=collection_link&creator=47760865"
+	},
+	"item": [
+		{
+			"name": "File Upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/D:/CDP Ankit/Resume/Ankit_Kumar_Singh_12211688.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/files",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"files"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "File Progress",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/files/2989f142-db6a-4b7b-80c6-3ed8304b8da1/progress",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"files",
+						"2989f142-db6a-4b7b-80c6-3ed8304b8da1",
+						"progress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get file by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/files/2989f142-db6a-4b7b-80c6-3ed8304b8da1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"files",
+						"2989f142-db6a-4b7b-80c6-3ed8304b8da1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all files",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/files",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"files"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Files",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/files/2989f142-db6a-4b7b-80c6-3ed8304b8da1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"files",
+						"2989f142-db6a-4b7b-80c6-3ed8304b8da1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
