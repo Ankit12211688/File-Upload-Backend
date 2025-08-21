@@ -12,21 +12,27 @@ A backend service for uploading, storing, parsing, and retrieving files with rea
 
 # 📂 Directory Structure
 
-file-upload-backend/
-│── index.js
-│── config/
-│    └── db.js
-│── models/
-│    └── File.js
-│── routes/
-│    └── fileRoutes.js
-│── controllers/
-│    └── fileController.js
-│── utils/
-│    └── parser.js
-│── uploads/   (storage for uploaded files if storing path instead of binary)
-│── package.json
-
+```
+.
+├── file-upload-backend/
+│   ├── .env
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── config/
+│       ├── db.js
+│   └── controllers/
+│       ├── fileController.js
+│   └── utils/
+│       ├── parser.js
+│   ├── modals/
+│   │   ├── File.js
+│   └── routes/
+│       ├── fileRoutes.js
+│   └── uploads/ (storage for uploaded files if storing path instead of binary)
+```
 ## 🛠️ Installation Steps:
 
 <p>1. Clone Repository</p>
